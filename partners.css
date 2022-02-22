@@ -164,3 +164,40 @@ header{
     width: 1350px;
 }
 /* ---------------- */
+.card{
+    width: 20%;
+    display: inline-block;
+    /* box-shadow: 2px 2px 20px rgb(250, 246, 246); */
+    border-radius: 5px; 
+    margin: 6%;
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+

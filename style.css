@@ -82,7 +82,7 @@ header{
 
 #nav-cta{
     display: inline-block;
-    background-color: rgb(255, 254, 254);
+     background-color: rgb(255, 254, 254); 
     color: #fa0202;
     padding: 1rem 2rem;
     /* border-radius: 2rem; */
