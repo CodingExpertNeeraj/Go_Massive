@@ -133,7 +133,8 @@ header{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url("https://media.istockphoto.com/photos/futuristic-digital-block-chain-background-picture-id1212911887?k=20&m=1212911887&s=612x612&w=0&h=W7cA4FP_AS2UkZPSNKqFMyWfvV9tAmNCS9RMunKQc9s=") center no-repeat;
+    /* background: url("https://media.istockphoto.com/photos/futuristic-digital-block-chain-background-picture-id1212911887?k=20&m=1212911887&s=612x612&w=0&h=W7cA4FP_AS2UkZPSNKqFMyWfvV9tAmNCS9RMunKQc9s=") center no-repeat;
+    */
     background-size: cover;
     position: relative;
 }
@@ -159,3 +160,14 @@ header{
     font-size: 20px;
     color: #151515;
 }
+.sec3 h1{
+    font-size: 60px;
+    display: inline-flex;
+}
+.sec3 .card{
+    display: inline-block;
+}
+.sec4{
+    height: 300px;
+}
+
