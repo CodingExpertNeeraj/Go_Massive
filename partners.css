@@ -216,3 +216,10 @@ h1{
     height: 600px;
     background-color: #313131;
 }
+.sec4 .nav2 a{
+    font-size: 20px;
+    color: white;
+    padding-left: 130px;
+    text-decoration: none;
+    justify-content: left;
+}
