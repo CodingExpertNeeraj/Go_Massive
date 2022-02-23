@@ -36,8 +36,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid rgba(255,255,255,.05);
+    /* border-bottom: 2px solid rgba(255,255,255,.05); */
     transition: height .5s ease;
+}
+.nav a:hover{
+    color: #fa0202;
 }
 
 .nav a{
@@ -82,7 +85,7 @@ header{
 
 #nav-cta{
     display: inline-block;
-    background-color: rgb(255, 254, 254);
+     background-color: rgb(255, 254, 254); 
     color: #fa0202;
     padding: 1rem 2rem;
     /* border-radius: 2rem; */
@@ -133,7 +136,8 @@ header{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url("Screenshot\ \(362\).png") center no-repeat;
+     background: url("../images/Screenshot\ \(364\).png") center no-repeat;
+    
     background-size: cover;
     position: relative;
 }
@@ -159,10 +163,18 @@ header{
     font-size: 20px;
     color: #151515;
 }
-/* .cover{
-    height: 600px;
-    width: 1350px;
-} */
-.nav a:hover{
-    color: #fa0202;
+.sec3 h1{
+    font-size: 60px;
+    display: inline-flex;
 }
+.sec3 .card{
+    display: inline-block;
+}
+.sec4{
+    height: 300px;
+}
+.landingPageAnimation{
+    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
+    
+}
+

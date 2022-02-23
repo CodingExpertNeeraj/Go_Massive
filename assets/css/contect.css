@@ -36,11 +36,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border-bottom: 2px solid rgba(255,255,255,.05); */
+    border-bottom: 2px solid rgba(255,255,255,.05);
     transition: height .5s ease;
-}
-.nav a:hover{
-    color: #fa0202;
 }
 
 .nav a{
@@ -85,7 +82,7 @@ header{
 
 #nav-cta{
     display: inline-block;
-     background-color: rgb(255, 254, 254); 
+    background-color: rgb(255, 254, 254);
     color: #fa0202;
     padding: 1rem 2rem;
     /* border-radius: 2rem; */
@@ -136,8 +133,7 @@ header{
 .hero{
     width: 100%;
     height: 100vh;
-     background: url("Screenshot\ \(366\).png") center no-repeat;
-    
+    background: url("Screenshot\ \(362\).png") center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -163,14 +159,49 @@ header{
     font-size: 20px;
     color: #151515;
 }
-.sec3 h1{
-    font-size: 60px;
-    display: inline-flex;
+/* .cover{
+    height: 600px;
+    width: 1350px;
+} */
+.nav a:hover{
+    color: #fa0202;
 }
-.sec3 .card{
-    display: inline-block;
+.contect-box{
+    width: 500px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 20px 0 #999; */
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
 }
-.sec4{
-    height: 300px;
+form{
+    margin: 35px;
 }
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+    border-radius: 14px;
+}
+textarea{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: #fa0202;
+    height: 30px;
+    width: 60px;
+}
+
+
+
+
+
+
+
 
