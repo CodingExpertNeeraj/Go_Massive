@@ -179,5 +179,22 @@ header{
     position:relative;
     width: 1349px;
     height: 100vh;
+    font-size: 40px;
+}
+.landingPageAnimation button{
+    margin-left: 12%;
+    height: 50px;
+    width: 280px;
+    color: #ffffff!important;
+    border-width: 0px!important;
+    border-color: #e50000;
+    border-radius: 0px;
+    font-size: 22px;
+    font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    background-color: #e50000;
+}
+.landingPageAnimation button:hover{
+    box-shadow:  10px 10px 0 0 rgb(34, 28, 28);
 }
 
