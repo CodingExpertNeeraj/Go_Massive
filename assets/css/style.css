@@ -330,4 +330,17 @@ header{
     font-size: 18px;
 } */
 
-
+.col-xs-6 p{
+    font-size: 26px;
+    font-weight: lighter;
+    font-family: 'Qanelas-light',Helvetica,Arial,Lucida,sans-serif;
+    
+}
+.btn4{
+    background-color: #151515;
+    color: #ffffff;
+    width: 190px;
+    height: 43px;
+    font-size: 18px;
+    ;
+}
