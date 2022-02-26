@@ -337,7 +337,7 @@ header{
     
 }
 .btn4{
-    background-color: #151515;
+    background-color: #292525;
     color: #ffffff;
     width: 190px;
     height: 43px;
@@ -346,4 +346,9 @@ header{
 }
 .btn4:hover{
     box-shadow: 8px 8px 0 0 #e50000;
+}
+video{
+    box-shadow: 10px 10px 0 0 #e50000;
+    height:fit-content
+    /* padding-bottom: 50%; */
 }
