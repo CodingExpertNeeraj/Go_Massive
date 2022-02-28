@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background-color .5s ease;
+    z-index: 1000;
+    padding-left: 10px;
+    background-color: white;
+    color: #151515;
+}
+
+.container{
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.nav{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 2px solid rgba(255,255,255,.05); */
+    transition: height .5s ease;
+}
+.nav a:hover{
+    /* color: #fa0202; */
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.nav .logo{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    margin-left: 4rem;
+}
+
+.nav-link{
+    margin: 0 2rem;
+    position: relative;
+}
+
+.nav-link::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+
+#nav-cta{
+    display: inline-block;
+     background-color: rgb(255, 254, 254); 
+    color: #e50000;
+    padding: 1rem 2rem;
+    /* border-radius: 2rem; */
+    /* transition: background-color .5s ease; */
+    /* width: 200px; */
+    font-weight: bold;
+    border: 2px solid #e50000;
+    font-size: 22px;
+}
+#nav-cta{
+    width: 300px;
+    text-align: center;
+}
+
+/* #nav-cta:hover{
+    background-color: #d3d3d3;
+} */
+
+
+/*Apply styles after scroll*/
+.scrolling-active{
+    background-color: #fff;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+
+.scrolling-active .nav{
+    height: 6.6rem;
+}
+
+.scrolling-active .nav a{
+    color: #313131;
+}
+
+.scrolling-active #nav-cta{
+    background-color: #e50000;
+    /* color: rgb(241, 4, 4); */
+    border-color: #e50000; 
+    color: #ffffff;
+}
+
+/* .scrolling-active #nav-cta:hover{
+    background-color: #151515;
+} */
+
+.scrolling-active .nav-link::after{
+    background-color: #313131;
+}
+
+/*Apply styles after scroll end*/
+
+
+/* Hero Demo Content*/
+/* .hero{
+    width: 100%;
+    height: 100vh;
+     background: url("../images/Screenshot\ \(364\).png") center no-repeat;
+    
+    background-size: cover;
+    position: relative;
+} */
+
+.hero::after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+.demo-content{
+    width: 100%;
+    height: 200vh;
+    background-color: #fff;
+}
+/* Hero end*/
+.nav ul li a{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #151515;
+}
+.landingPageAnimation{
+    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/GEN_events-scaled.jpg");
+    background-size: cover;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
