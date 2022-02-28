@@ -180,3 +180,15 @@ header{
     padding-left: 30px;
     margin-bottom: 20px;
 }
+.landingPageAnimation input{
+    width: 300px;
+    font-size: 20px;
+    height: 40px;
+    background-color: #ffffff;
+    padding-left: 3px;
+    border: 0.3px solid black;
+}
+.landingPageAnimation button{
+    height: 40px;
+    border: none;
+}
