@@ -194,3 +194,18 @@ header{
 .landingPageAnimation button a{
     text-decoration: none;
 }
+.sec1 p{
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Qanelas-light',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+}
+.sec1 h1{
+    font-size: 50px;
+    line-height: 63px;
+    font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif;
+    color: #000000!important;
+}
+.sec1{
+    padding-top: 8%;
+}
