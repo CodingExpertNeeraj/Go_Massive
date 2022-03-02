@@ -227,3 +227,46 @@ header{
 .sec4 img{
     box-shadow: 10px 10px 0 0 #e50000;
 }
+.sec5 h1{
+    color: #000000;
+    margin-top: 30%;
+}
+.sec5 img{
+    box-shadow: 10px 10px 0 0 #e50000;
+    width: 80%;
+    padding-left: 20%;
+}
+.sec7{
+    margin-top: 15%;
+}
+.sec7 h1{
+    color: #000000;
+}
+.sec7 img{
+    box-shadow: 10px 10px 0 0 #e50000;
+    height: 250px;
+}
+.sec8{
+    width: 100%;
+    height: 400px;
+    background-color: #3c3c3c;
+    margin-top: 35%;
+}
+.last a{
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.last{
+    padding-left: 8%;
+}
+.last a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer{
+    padding-left: 9%;
+    font-size: 18px;
+    color: #ffffff;
+}
