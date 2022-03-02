@@ -196,7 +196,7 @@ header{
 }
 .sec1 p{
     font-size: 20px;
-    line-height: 27px;
+    line-height: 37px;
     font-family: 'Qanelas-light',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 500;
 }
@@ -213,5 +213,11 @@ header{
     color: #000000;
 }
 .sec2 img{
+    box-shadow: 10px 10px 0 0 #e50000;
+}
+.sec3 h1{
+    color: #000000;
+}
+.sec3 img{
     box-shadow: 10px 10px 0 0 #e50000;
 }
