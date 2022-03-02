@@ -128,13 +128,13 @@ header{
     color: #ffffff;
 }
 
-/* .scrolling-active #nav-cta:hover{
-    background-color: #151515;
-} */
+ .scrolling-active #nav-cta:hover{
+    text-decoration: none;
+} 
 
-.scrolling-active .nav-link::after{
+ .scrolling-active .nav-link::after{
     background-color: #313131;
-}
+} 
 
 /*Apply styles after scroll end*/
 
@@ -170,10 +170,7 @@ header{
     font-size: 20px;
     color: #151515;
 }
-.sec3 h1{
-    font-size: 60px;
-    display: inline-flex;
-}
+/*  */
 .landingPageAnimation{
     background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
     background-size: cover;
