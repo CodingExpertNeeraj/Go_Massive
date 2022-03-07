@@ -16,12 +16,12 @@ body {
 nav ul li a{
     color: rgb(8, 1, 1);
     font-size: 18px;
-    margin: 20px;
+    margin: 15px;
     text-decoration: none;
 }
 li{
     position: relative;
-    margin-top: 4%;
+    /* margin-top: 4%; */
     margin-right: 30px;
     display: block;
     
@@ -34,4 +34,26 @@ ul{
     top: 15%;
     text-decoration: none;
 
+}
+.main img{
+    width: 100%;
+    height: 400px;
+}
+.main h1{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    left: 35%;
+    bottom: 25%;
+}
+.main button{
+    position: absolute;
+    top: 45%;
+    right: 30%;
+    left: 45%;
+    bottom: 25%;
+    width: 144px;
+    height: 40px;
+    background-color: rgb(299, 0, 0);
+    border: none;
 }
