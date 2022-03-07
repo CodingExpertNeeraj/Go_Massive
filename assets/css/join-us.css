@@ -23,12 +23,10 @@ li{
     position: relative;
     margin-top: 4%;
     margin-right: 30px;
+    display: block;
     
 }
-nav{
 
-    
-}
 ul{
     display: flex;
     float: right;
