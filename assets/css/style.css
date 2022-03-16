@@ -213,6 +213,56 @@ header{
     box-sizing: border-box;
     display: block;
 }
+div.et_pb_section.et_pb_section_0 {
+    background-image: linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%),url(https://gomassive.in/wp-content/uploads/2020/05/image-000-scaled.jpg)!important;
+}
+@media only screen and (max-width: 767px)
+.et_pb_section.et_pb_section {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 72px;
+}
+.et_pb_section_0.et_pb_section {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-top: 78px;
+}
+@media (max-width: 980px)
+.et_pb_section {
+    padding: 50px 0;
+}
+.et_pb_section {
+    position: relative;
+    background-color: #fff;
+}
+.et_pb_section, .et_pb_slider .et_pb_slide {
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+}
+.et_pb_with_background {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+
 
 
 
