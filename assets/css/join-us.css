@@ -54,13 +54,16 @@ ul{
     width: 100%;
     height: 400px;
 }
-.main h1{
+.main p{
     position: absolute;
     top: 30%;
     right: 30%;
-    left: 35%;
+    left: 40%;
     bottom: 25%;
-    font-family: "Qanelas Soft Light";
+    font-family: "Qanelas Soft SemiBold";
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: rgb(59, 59, 59);
 }
 .main button{
     position: absolute;
@@ -100,7 +103,17 @@ header img{
     box-sizing: border-box;
     
 }
-.sec1 div>p{
-    font-size: 16px;
-    font-family: "Qanelas Soft Light";
+.sec1 div>strong{
+    
+    font-family: "Qanelas Soft Medium";
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    font: inherit;
+    vertical-align: baseline;
+    margin-top: 2%;
+    box-sizing: inherit;
+    font-size: 18px;
+    /* webkit-font-smoothing: antialiased; */
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
