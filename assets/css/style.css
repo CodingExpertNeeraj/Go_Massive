@@ -172,15 +172,15 @@ header{
 }
 
  .landingPageAnimation{
-    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
+    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 80%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
     background-size: cover;
     position:relative;
-    width: 100%;
-    height: 100%;
+     width: 100vw; 
+    /* height: 100%; */
     /* font-size: 40px;
     padding-left: 30px;
     margin-bottom: 20px; */
-
+    padding-top: 75px;
 }
 .landingPageAnimation button{
     margin-left: 12%;
@@ -213,8 +213,9 @@ header{
 
 
 } 
-
-
+.landingPageAnimation h1 h3{
+    font-weight: 700;
+}
 
 
 
