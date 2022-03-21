@@ -171,16 +171,12 @@ header{
     color: #151515;
 }
 
+ 
  .landingPageAnimation{
-    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 80%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
-    background-size: cover;
+     background-image:  linear-gradient(180deg,rgba(255,255,255,0) 80%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
+    background-size:cover;
     position:relative;
-     width: 100vw; 
-    /* height: 100%; */
-    /* font-size: 40px;
-    padding-left: 30px;
-    margin-bottom: 20px; */
-    padding-top: 75px;
+    padding-top: 75px; 
 }
 .landingPageAnimation button{
     margin-left: 12%;
