@@ -377,11 +377,13 @@ video{
 .sec6{
     width: 100%;
     height: 400px;
-    background-color: rgb(252, 245, 238);
+    /* background-color: rgb(252, 245, 238); */
     margin-top: 18%;
     text-align: center;
     font-size: 22px;
+    background-color: rgba(204,204,204,0.1)!important;
 }
+
 .sec5{
     width: 100%;
     height: 900px;
@@ -440,6 +442,7 @@ video{
   }
   .sec8{
     background-color: rgba(204,204,204,0.5)!important;
+    padding-bottom: 3%;
 }
   .sec8 .card{
       width: 70%;
@@ -448,7 +451,6 @@ video{
       width: 100%;
   }
   .sec9 .main{
-
     margin: 2%;
    }
    
@@ -458,12 +460,14 @@ video{
         /* box-shadow: 2px 2px 20px black; */
         border-radius: 5px; 
         margin: 4%;
+        box-shadow: none;
        }
    
   .sec9 .image img{
      width: 100%;
      border-top-right-radius: 5px;
      border-top-left-radius: 5px;
+     box-shadow: none;
     
     }
    
