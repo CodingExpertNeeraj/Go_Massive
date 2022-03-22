@@ -209,3 +209,34 @@ header{
     height: 800px;
     background-color: aqua;
 }
+
+.main{
+
+    margin: 2%;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        /* box-shadow: 2px 2px 20px black; */
+        border-radius: 5px; 
+        margin: 6%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+    .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+      }  
