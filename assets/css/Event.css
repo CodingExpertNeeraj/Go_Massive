@@ -253,4 +253,49 @@ header{
     .sec6 label button{
         margin-left: 50%;
     }
+    .sec10{
+        margin-bottom: 50%;
+    }
+    .sec9 .main{
+        margin: 2%;
+       }
+       
+        .sec9 .card{
+            width: 20%;
+            display: inline-block;
+            /* box-shadow: 2px 2px 20px black; */
+            border-radius: 5px; 
+            margin: 4%;
+            box-shadow: none;
+           }
+       
+      .sec9 .image img{
+         width: 100%;
+         border-top-right-radius: 5px;
+         border-top-left-radius: 5px;
+         box-shadow: none;
+        
+        }
+       
+    
+       .sec10 .main{
+    
+        margin: 2%;
+       }
+       
+        .sec10 .card{
+            width: 20%;
+            display: inline-block;
+            /* box-shadow: 2px 2px 20px black; */
+            border-radius: 5px; 
+            margin: 4%;
+            
+           }
+       
+      .sec10 .image img{
+         width: 100%;
+         border-top-right-radius: 5px;
+         border-top-left-radius: 5px;
+        
+        }
     
