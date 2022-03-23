@@ -298,4 +298,21 @@ header{
          border-top-left-radius: 5px;
         
         }
-    
+        .last a{
+            color: #ffffff;
+            font-size: 18px;
+            padding-left: 1%;
+            padding-top: 1%;
+        }
+        .last{
+            padding-left: 8%;
+        }
+        .last a:hover{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        footer{
+            padding-left: 9%;
+            font-size: 18px;
+            color: #ffffff;
+        }
