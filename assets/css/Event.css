@@ -316,3 +316,51 @@ header{
             font-size: 18px;
             color: #ffffff;
         }
+        /*  media query in section 9 and section 10 */
+        @media (min-width:100px){
+            .sec9  .card{
+                width: 60%;
+                
+                
+            }
+        }
+
+        @media (min-width:650px){
+            .sec9 .card{
+                width: 35%;
+                
+            }
+        }
+        @media (min-width:1078px){
+            .sec9 .card{
+                width: 20%;
+                
+            }
+        }
+
+
+        /* ---------------------------------- */
+        @media (min-width:100px){
+            .sec10 .card{
+            width: 60%;
+                 
+                }
+            }
+            
+            @media (min-width:650px){
+                .sec10 .card{
+                width: 35%;
+                
+            }
+        }
+        @media (min-width:1078px){
+          .sec10 .card{
+                width: 20%;
+                
+            }
+        }
+        @media(min-width:100px),(max-width:1200px){
+            .sec9,.sec10>.card{
+                margin-left: 0;
+            }
+        }
