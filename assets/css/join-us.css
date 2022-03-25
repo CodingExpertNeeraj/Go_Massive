@@ -51,3 +51,103 @@ width: 496px;
     width: 496px;
     left: 0px;
 }
+.line2{
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    clear: both;
+    position: relative;
+    pointer-events: none;
+    margin-top: 3px;
+    height: 60px;
+}
+.box2{
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    pointer-events: none;
+    height: 60px;
+    left: 0px;
+    width: 60px;
+}
+.btn{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
+    outline: 0px dotted transparent;
+    touch-action: manipulation;
+    pointer-events: auto;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 4;
+    height: 60px;
+    top: 0px;
+    padding: 0px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: rgb(55, 55, 55);
+    font-size: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 60px;
+    left: 0px;
+}
+.box3{
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    pointer-events: none;
+    height: 60px;
+    left: 244.39px;
+    width: 236.61px;
+}
+.group2{
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    pointer-events: auto;
+    overflow: visible;
+    display: none;
+    box-sizing: border-box;
+}
