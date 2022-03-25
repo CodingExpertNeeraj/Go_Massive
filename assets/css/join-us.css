@@ -1,119 +1,53 @@
-header{
+.bubble{
     position: fixed;
     z-index: 1505;
-     height: 110px; 
+    height: 80px;
     top: 0px;
     left: 0px;
-    /* width: 212px; */
+    width: 496px;
     background-color: rgb(228, 240, 221);
     border-radius: 0px;
     box-sizing: border-box;
-    width: 100%;
 }
-body {
-    font-family: Helvetica, Arial, sans-serif;
+.line{
+    margin-top: 0px;
+    height: 80px;
 }
-nav ul li a{
-    color: rgb(8, 1, 1);
-    font-size: 16px;
-    margin: 10px;
-    text-decoration: none;
+.box{
+-webkit-text-size-adjust: 100%;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+box-sizing: inherit;
+-webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+position: absolute;
+top: 0px;
+pointer-events: none;
+height: 80px;
+left: 0px;
+width: 496px;
 }
-nav ul li a:hover{
-    color: rgb(299,0,0);
-}
-li{
-    position: relative;
-    /* margin-top: 4%; */
-    margin-right: 30px;
-    display: block;
-    margin-top: 5.5%;
-}
-ul a> button{
-    margin-top:  11%;
-    margin-right: 20%;
-    background-color: rgb(299, 0, 0);
-    color: white;
-    border-radius: 5px;
-    border: none;
-    width: 120px;
-    height: 42px;
-    font-size: 17px;
-    float: right;
-}
-
-ul{
-    display: flex;
-    float: right;
-    position: relative;
-    top: 15%;
-    text-decoration: none;
-
-}
-.main img{
-    width: 100%;
-    height: 400px;
-}
-.main p{
-    position: absolute;
-    top: 30%;
-    right: 30%;
-    left: 40%;
-    bottom: 25%;
-    font-family: "Qanelas Soft SemiBold";
-    font-size: 28px;
-    /* font-weight: bold; */
-    color: rgb(59, 59, 59);
-}
-.main button{
-    position: absolute;
-    top: 45%;
-    right: 30%;
-    left: 45%;
-    bottom: 25%;
-    width: 144px;
-    height: 40px;
-    background-color: rgb(299, 0, 0);
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    font-family: "Qanelas Soft Light";
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px;
-    line-height: 1;
-}
-header img{
-    width: 120px;
-    height: 100px;
-    display: block;
-    position: absolute;
-    top: 5%;
-    left: 4%;
-}
-.sec1{
-    width: 100%;
-    height: 100vh auto;
-    align-items: center;
-    justify-content: center;
-}
-.sec1 div {
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
-    
-}
-.sec1 div>strong{
-    
-    font-family: "Qanelas Soft Medium";
-    font-weight: bold;
-    color: rgb(59, 59, 59);
+.group{
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
     font: inherit;
     vertical-align: baseline;
-    margin-top: 2%;
-    box-sizing: inherit;
-    font-size: 18px;
-    /* webkit-font-smoothing: antialiased; */
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    pointer-events: auto;
+    overflow: visible;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    height: 80px;
+    top: 0px;
+    border-radius: 0px;
+    width: 496px;
+    left: 0px;
 }
