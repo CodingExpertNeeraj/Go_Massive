@@ -1,153 +1,38 @@
-.bubble{
-    position: fixed;
-    z-index: 1505;
-    height: 80px;
+
+.main-page{
+    width: 97px;
+    height: 5395.66px;
+    min-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    z-index: 1;
     top: 0px;
-    left: 0px;
-    width: 496px;
-    background-color: rgb(228, 240, 221);
-    border-radius: 0px;
+    overflow: hidden;
+    background: none rgb(255, 255, 255);
     box-sizing: border-box;
 }
 .line{
-    margin-top: 0px;
-    height: 80px;
+    margin-top: 80px;
+    height: 387.75px;
 }
 .box{
--webkit-text-size-adjust: 100%;
-margin: 0;
-padding: 0;
-border: 0;
-font: inherit;
-vertical-align: baseline;
-box-sizing: inherit;
--webkit-font-smoothing: antialiased;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-position: absolute;
-top: 0px;
-pointer-events: none;
-height: 80px;
-left: 0px;
-width: 496px;
+    height: 387.75px;
+    left: 0px;
+    width: 97px;
 }
 .group{
-    -webkit-text-size-adjust: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    pointer-events: auto;
-    overflow: visible;
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 2;
-    height: 80px;
-    top: 0px;
-    border-radius: 0px;
-    width: 496px;
+    width: 97px;
     left: 0px;
-}
-.line2{
-    -webkit-text-size-adjust: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: inherit;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    clear: both;
-    position: relative;
-    pointer-events: none;
-    margin-top: 3px;
-    height: 60px;
-}
-.box2{
-    -webkit-text-size-adjust: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: inherit;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0px;
-    pointer-events: none;
-    height: 60px;
-    left: 0px;
-    width: 60px;
-}
-.btn{
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    font-family: "Material Icons";
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-feature-settings: "liga";
-    outline: 0px dotted transparent;
-    touch-action: manipulation;
-    pointer-events: auto;
     position: absolute;
     box-sizing: border-box;
     z-index: 4;
-    height: 60px;
+    height: 387.75px;
     top: 0px;
-    padding: 0px;
-    text-align: center;
-    background: none;
-    border: none;
-    color: rgb(55, 55, 55);
-    font-size: 60px;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 60px;
-    left: 0px;
-}
-.box3{
-    -webkit-text-size-adjust: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: inherit;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0px;
-    pointer-events: none;
-    height: 60px;
-    left: 244.39px;
-    width: 236.61px;
-}
-.group2{
-    -webkit-text-size-adjust: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    position: relative;
-    pointer-events: auto;
-    overflow: visible;
-    display: none;
-    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0px;
+    background-image: url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1634021518299x957047623958793300%2F4850037.jpg?w=128&h=512&auto=compress&fit=crop&dpr=1");
 }

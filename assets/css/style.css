@@ -214,9 +214,44 @@ header{
 
 
 } 
-.landingPageAnimation h1 h3{
+/* .landingPageAnimation h1 h3{
     font-weight: 700;
+} */
+@media only screen and (max-width: 767px){
+.landingPageAnimation h3 {
+    font-size: 24px;
+}}
+.landingPageAnimation h3 {
+    font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 90px;
+    color: #000000!important;
+    line-height: 72px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -229,6 +264,7 @@ header{
     font-weight: 500;
     color: #333;
 }
+
 .vid video{
     width: 700px;
     height: auto;
