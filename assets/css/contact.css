@@ -32,7 +32,7 @@ header{
 
 .nav{
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -167,42 +167,58 @@ header{
 .nav a:hover{
     color: #fa0202;
 }
-.contect-box{
-    width: 500px;
-    /* background-color: #fff; */
-    /* box-shadow: 0 0 20px 0 #999; */
-    top: 120%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.landingPageAnimation{
+    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 100%,#ffffff 80%) ,url("../images/GEN_Join_new.jpg");
+   /* background-size:cover; */
+   /* position:relative; */
+   height: 100vh;
+    padding-top: 75px;  
+    background-size: 100%;
+}
+/* 
+.landingPageAnimation h3{
+    position: relative;
+    top: 48%;
+    left: 35%;
+    font-size: 24px;
+}
+.container2{
+    width: 100%;
+    position: relative;
+    
+}
+.container2>img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.container2>h1{
     position: absolute;
-}
-form{
-    margin: 35px;
-}
-.input-field{
-    width: 400px;
-    height: 40px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid gray;
-    border-radius: 14px;
-}
-textarea{
-    font-size: 20px;
+     left: 13%; 
+    top: 30%;
+        
+} */
+
+/* Container holding the image and the text */
+.container2 {
+    position: relative;
     text-align: center;
+    color: #333;
+    font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 42px;
+    line-height: 1.4em;
+    font-weight: 600;
+    height:700px ;
 }
-button{
-    color: white;
-    background-color: #fa0202;
-    height: 30px;
-    width: 60px;
-}
 
 
-
-
-
-
-
-
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  
+  
