@@ -533,12 +533,14 @@ video{
 
     .last a{
         color: #ffffff;
-        font-size: 18px;
+        font-size: 17px;
         padding-left: 1%;
         padding-top: 1%;
+        text-decoration: none;
     }
     .last{
         padding-left: 8%;
+        margin-top: 2%;
     }
     .last a:hover{
         color: #ffffff;
@@ -546,6 +548,8 @@ video{
     }
     footer{
         padding-left: 9%;
-        font-size: 18px;
+        font-size: 17px;
         color: #ffffff;
+        margin-top: 8%;
+        font-weight: lighter;
     }
