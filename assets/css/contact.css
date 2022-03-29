@@ -300,7 +300,7 @@ header{
   }
 
   /* ------- */
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  /* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
 
 *{
   margin: 0;
@@ -308,9 +308,9 @@ header{
 }
 
 body{
-  background: url("https://i.imgur.com/wEDJfYM.jpg") no-repeat center;
-  background-size: cover;
-  height: auto;
+  /* background: url("https://i.imgur.com/wEDJfYM.jpg") no-repeat center; */
+  /* background-size: cover;
+  height: auto; */
   /* font-family: 'Roboto'; */
 }
 
@@ -325,13 +325,13 @@ body{
   padding: 40px;
 }
 
-p{
+/* p{
   text-align: center;
   letter-spacing: 1px;  
   font-size: 45px;
   margin-bottom: 20px;
   color: #486255;
-}
+} */
 
 .input,
 .msg .area{
@@ -384,7 +384,8 @@ p{
 } */
 .container3 span{
     font-size: 17px;
-    color: #333;
+    color: rgba(82, 77, 77, 0.733);
+    font-weight: bold;
 }
 .container3 span sup{
     color: #fa0202;
@@ -411,4 +412,30 @@ p{
   color: #fff;
   text-transform: capitalize;
   letter-spacing: 1px;
+}
+
+
+.last a{
+    color: #ffffff;
+    font-size: 17px;
+    padding-left: 1%;
+    padding-top: 1%;
+    text-decoration: none;
+}
+.last{
+    padding-left: 8%;
+    margin-top: 3%;
+}
+.last a:hover{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+footer{
+    padding-left: 9%;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 8%;
+    font-weight: lighter;
+
 }
