@@ -264,7 +264,41 @@ header::after {
 }
 .box {
     width: 100%;
+    position: relative;
+    top: 20%;
 }
 .box img{
     width: 100%;
 }
+.box .btn{
+    position: relative;
+    top: 50%;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    /* transform: translate(-50%, -50%);  */
+    width: 144px;
+    height: 44px;
+    font-size: 14px;
+    background: rgb(299, 0, 0);
+    font-family: "Qanelas Soft Light";
+    border: none;
+    z-index: 3;
+    transition: background 200ms ease 0s;
+    box-shadow: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    line-height: 1;
+    border-radius: 5px;
+  }
+  .centered2{
+    position: absolute;
+    top: 27%;
+    left: 39%;
+    font-size: 28px;
+    color: #3b3b3b;
+    font-family: "Qanelas Soft SemiBold";
+  }
