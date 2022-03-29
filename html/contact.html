@@ -65,7 +65,7 @@
         <div class="centered">Contact Us</div>
       </div>
 
-      <section class="sec1">
+      <!-- <section class="sec1">
           <div>
               <form action="">
                   <div class="abc">
@@ -75,30 +75,63 @@
                   <label for="Lname"><input type="text" placeholder=""></label>
                 </div>
                 <!-- email -->
-                <div class="bcd">
+                <!-- <div class="bcd">
                     <h6>Email <sub>*</sub></h6>
                     <label for="fname"><input type="email" placeholder=""></label>
                 </div>
-                <!-- --phone -- -->
+                <!-- --phone -- 
                 <div class="cde">
-                    <h6>Phone <sub>*</sub></h6>
+                    <h6>Phone</h6>
                     <label for="fname"><input type="number" placeholder=""></label>
                 </div>
-                <!-- textarea -->
+                <!-- textarea --
                 <div class="def">
                     <textarea name="" id="area" cols="30" rows="10"></textarea>
                 </div>
                 </form>
           </div>
-      </section>
+      </section> -->
+ 
 
+      <div class="container3">
+        
+        
+        <div class="login">
+            <!-- <span>Name <sup>*</sup></span> -->
+          <input type="text" placeholder="Your First Name" class="input">
+          <input type="text" placeholder="Your Last Name" class="input">
+        </div>
+        
+        <div class="subject">
+            <span>Email <sup>*</sup></span>
+          <input type="email" placeholder="Email" class="input">
+        </div>
 
+        <div class="number">
+            <span>Phone <sup>*</sup></span>
+            <input type="number" placeholder="Number" class="input">
+          </div>
+        
+        <div class="msg">
+            <span>Message <sup>*</sup></span>
+          <textarea  class="area" placeholder="Leave a Message"></textarea>
+        </div>
+        
+        <div class="btn" >submit</div>
+      </div>
+    
+    
+    
      <script>
         window.addEventListener('scroll', function () {
             let header = document.querySelector('header');
             let windowPosition = window.scrollY > 0;
             header.classList.toggle('scrolling-active', windowPosition);
         })
+        //-----------------//
+        $(".btn").click(function(){
+  $(".input, .area").val("");
+});
     </script>
 </body>
 </html>
