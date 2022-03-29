@@ -262,6 +262,29 @@ header::after {
     }
 
 }
+.site-nav  button{
+    box-sizing: border-box;
+    z-index: 4;
+    height: 40px;
+    top: 0px;
+    /* font-family: "Qanelas Soft Light"; */
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 1;
+    border-radius: 5px;
+    transition: background 200ms ease 0s;
+    width: 120px;
+    left: 0px;
+    text-decoration: none;
+    font-style: normal;
+    box-shadow: rgb(0 0 0 / 10%) 2px 2px 4px;
+    background-color:#E50000;
+    border: none;
+    color: #ffffff;
+    border-radius: 6px;
+}
 .box {
     width: 100%;
     position: relative;
