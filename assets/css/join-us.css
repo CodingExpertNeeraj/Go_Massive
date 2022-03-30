@@ -368,27 +368,7 @@ header::after {
     margin-left: 30%;
   } */
 
-  .container2{
-      display: inline-block;
-      
-  }
-
-  .container2 .box {
-    display : flex;
-   flex-direction : row;
-    
- }
-
- 
- .container2 .box .box-cell.box1 {
-     background:green;
-     color:white;
-     text-align:justify;
-  }
- .container2 .box .box-cell.box2 {
-     background:lightgreen;
-     text-align:justify
- }
+  
   
  .sec2{
      width: 100%;
@@ -396,12 +376,12 @@ header::after {
  }
  .sec2 .contex{
      width: 65%;
-     height: 230px;
+     height: 260px;
      background-color: rgb(230, 230, 230);
     border-radius: 5px;
     box-shadow: rgb(170 170 170) 1px 1px 4px 0px;
      box-sizing: border-box;
      margin-left: 18%;
      z-index: 5;
-
+    position: relative;
  }
