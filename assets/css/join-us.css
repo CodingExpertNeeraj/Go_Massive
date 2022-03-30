@@ -20,7 +20,7 @@ html {
 body {
     margin: 0;
     padding:0;
-    background: #f2f2f2;
+    background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     min-width: 198px;
 }
@@ -324,4 +324,31 @@ header::after {
     font-size: 28px;
     color: #3b3b3b;
     font-family: "Qanelas Soft SemiBold";
+  }
+  .sec1{
+      width: 100%;
+      background-color: #ffffff;
+  }
+
+  .content{
+      margin-left: 17%;
+  }
+  .content .p1{
+      font-size: 18px;
+      font-weight: bold;
+      color: #3b3b3b;
+  }
+  .content .p2{
+      font-size: 18px;
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+    line-height: 1.4;
+      
+  }
+  .content .p3{
+    font-size: 18px;
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+    line-height: 1.4;
+      
   }
