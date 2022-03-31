@@ -392,3 +392,47 @@ header::after {
      margin-top: 5%;
      margin-left: 22%;
  }
+ .sec3{
+     width: 100%;
+ }
+ .sec3 .form-box{
+     width: 65%;
+     height: 450px;
+     
+    
+     /* background-color: rgb(230, 230, 230); */
+    border-radius: 5px;
+    box-shadow: rgb(170 170 170) 1px 1px 4px 0px;
+     box-sizing: border-box;
+     margin-left: 18%;
+     z-index: 3;
+    position: absolute;
+    background-color: rgb(48, 47, 47);
+    border-radius: 5px;
+ }
+ .form-box button{
+     position: absolute; 
+    box-sizing: border-box;
+    z-index: 2;
+    height: 51px;
+    width: 233px;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    cursor: pointer;
+    background: none rgb(229, 0, 0);
+    border: none;
+    text-align: center;
+    /* font-family: "Qanelas Soft Light"; */
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    line-height: 1;
+    border-radius: 5px;
+    transition: background 200ms ease 0s;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-shadow: none;
+    margin: 35%;
+ }
