@@ -57,6 +57,7 @@ header::after {
     content: '';
     clear: both;
     display: block;
+    position: sticky;
 }
 
 /*--------------------------------------*/
@@ -71,15 +72,17 @@ header::after {
     text-transform: uppercase;
     font-weight: 800;
 }
-
+/* 
 .logo #logo-last {      /* Changes to the logo for "SUTTON", This is starting Position */
-    float: left;
+    /* float: left;
     font-weight: 300;
     font-size: 1rem;
     color: #f2f2f2;
     padding-bottom: 20px;
+} */ */
+.nav-link {
+    margin-left: 14%;
 }
-
 .logo:hover #logo-last {    /* Logo colors switch on hover */
     margin: 0;
     color: #00b3b3;
@@ -384,4 +387,8 @@ header::after {
      margin-left: 18%;
      z-index: 5;
     position: relative;
+ }
+ iframe{
+     margin-top: 5%;
+     margin-left: 22%;
  }
