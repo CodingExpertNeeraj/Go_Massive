@@ -436,3 +436,28 @@ header::after {
     box-shadow: none;
     margin: 35%;
  }
+ .form-box button:hover{
+color: rgb(299, 0, 0);
+background-color: #ffffff;
+ }
+ .footer{
+     width: 100%;
+     height: 397px;
+     clear: both;
+    /* position: relative; */
+    pointer-events: none;
+    background-color: #6ed1d1;
+    margin-top: 40%;
+ }
+ .footer .fb{
+     margin-left: 5%;
+     margin-top: 5%;
+ }
+ .footer .fb p{
+     margin-top: 1%;
+     font-size: 18px;
+     
+    font-size: 18px;
+    color: rgb(9, 23, 71);
+    line-height: 1.5;
+ }
