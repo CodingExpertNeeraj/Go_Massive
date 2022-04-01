@@ -436,9 +436,20 @@ header::after {
     box-shadow: none;
     margin: 35%;
  }
+ .form-box img{
+    margin-top: 5%;
+    margin-left: 28%;
+ }
  .form-box button:hover{
 color: rgb(299, 0, 0);
 background-color: #ffffff;
+ }
+ .form-info{
+    text-align: center;
+     font-weight: bold;
+     font-size: 14px;
+     color: #333;
+     margin-top: 2%;
  }
  .footer{
      width: 100%;
@@ -467,14 +478,14 @@ background-color: #ffffff;
 
  .fa-linkedin {  
     /* background: #007bb5;   */
-    white-space: pre-wrap;
+    /* white-space: pre-wrap;
     width: 25px;
-    height: 22px;
-    border-radius: 5px;
+    height: 22px;*/
+    border-radius: 5px; 
     /* font-family: FontAwesome; */
-    padding-left: 5px;
+    padding-left: 3px;
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+     font: normal normal normal 14px/1 FontAwesome; 
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -482,7 +493,7 @@ background-color: #ffffff;
     cursor: pointer;
     pointer-events: auto;
     /* font-family: ABeeZee; */
-    font-size: 30px;
+    font-size: 10px;
     color: #ffffff;
     /* color: rgb(0, 95, 150); */
     background-color: rgb(43, 71, 163);
@@ -538,4 +549,10 @@ background-color: #ffffff;
   .sec4{
       width: 100%;
       display: flex;
+  }
+  .fb img{
+      margin-top: 35px;
+  }
+ .fb span{
+      font-size: 14px;
   }
