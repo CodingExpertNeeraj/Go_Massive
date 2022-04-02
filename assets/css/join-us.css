@@ -589,7 +589,8 @@ background-color: #ffffff;
   }
   .fn2 a{
     color: #0f0a0a;
-    text-decoration: none;
+    text-decoration: none; 
+    display: block;
   }
   .sec4{
       width: 100%;
@@ -598,6 +599,11 @@ background-color: #ffffff;
   .fb img{
       margin-top: 35px;
   }
+  .fb .spn{
+      text-decoration: none;
+      color: #0f0a0a;
+  }
  .fb span{
       font-size: 14px;
   }
+  
