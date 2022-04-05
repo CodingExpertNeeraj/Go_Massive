@@ -195,6 +195,21 @@ header{
     display: flex;
     margin-top: 10%;
 }
+.sec4 :hover{
+    transform: translateY(-10px);
+    transition: 3s;
+    /* transform: translateY(20px); */
+}
+.sec5 :hover{
+    transform: translateY(-10px);
+    transition: 3s;
+    /* transform: translateY(20px); */
+}
+.sec6 :hover{
+    transform: translateY(-10px);
+    transition: 3s;
+    /* transform: translateY(20px); */
+}
 .sec4 .d1{
     margin-left:15%;
      /* text-align: center; */
@@ -375,14 +390,14 @@ header{
     /* font-family: 'Qanelas-light',Helvetica,Arial,Lucida,sans-serif; */
     font-size: 20px;
     /* font-weight: lighter; */
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
     /* line-height: 1.8em;
     padding-top: 2%!important;
     padding-bottom: 2%!important;
     margin-bottom: 6%!important;
     transition: margin 300ms ease 0ms; */
     margin-top: 5%;
-    line-height: 1.6em;
+    line-height: 1.8em;
     cursor: pointer;
     /* height: 280px; */
  }
