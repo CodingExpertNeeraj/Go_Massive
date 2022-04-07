@@ -878,3 +878,75 @@ header{
     font-size: 14px;
     color: #0000004D;
 }
+/* section 15 */
+.sec15{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec15 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec15 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec15 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
+}
+/* section 16 */
+.sec16{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec16 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec16 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec16 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
+}
+.sec17{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    background-color: rgba(204,204,204,0.1)!important;
+}
+
+.sec17 .box{
+    box-sizing: border-box;
+    margin-left: 25%;
+    
+}
+.sec17 .box span{
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+}
+.sec17 .box p{
+    font-size: 22px;
+    padding-top: 80px;
+}
+.sec17 .lbl{
+    margin-left: 30%;
+}
+.sec17 .lbl input{
+    width: 290px;
+    margin: 10px;
+    height: 40px;
+    border: 0.5px solid #0000004D;
+}
+.sec17 .lbl button{
+    width: 150px;
+    height: 36px;
+    margin: 10px;
+    background-color: #e50000;
+    color: #ffffff;
+    border: none;
+}
