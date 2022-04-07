@@ -510,7 +510,7 @@ header{
 
 .sec7 .spn{
     font-size: 14px;
-    color: grey;
+    color: #0000004D;
     margin-top: 10px;
     /* padding-top: 8px; */
 }
@@ -629,7 +629,7 @@ header{
 
 .sec8 .spn{
     font-size: 14px;
-    color: grey;
+    color: #0000004D;
     /* margin-top: 10px; */
      /* padding-top: 20px; */
      transform: translateY(-25px);
@@ -720,7 +720,7 @@ header{
 
 .sec9 .spn{
     font-size: 14px;
-    color: grey;
+    color: #0000004D;
     margin-top: 10px;
     /* padding-top: 8px; */
 }
@@ -792,4 +792,38 @@ header{
     color: #333;
      text-decoration: underline;
     /* padding-top: 20px; */
+}
+/* section 10 */
+.sec10{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec10 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec10 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec10 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
+}
+/* section 11 */
+.sec11{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec11 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec11 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec11 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
 }
