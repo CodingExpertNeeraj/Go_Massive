@@ -827,3 +827,54 @@ header{
     font-size: 14px;
     color: #0000004D;
 }
+/* section 12 */
+.sec12{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec12 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec12 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec12 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
+}
+/* section 13 */
+.sec13{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec13 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec13 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec13 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
+}
+/* section 14 */
+.sec14{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.sec14 p{
+    font-size: 36px;
+    color: #000000;
+}
+.sec14 .bx2{
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.sec14 .bx2 span{
+    font-size: 14px;
+    color: #0000004D;
+}
