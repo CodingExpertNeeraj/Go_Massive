@@ -228,3 +228,12 @@ header{
     color: #000000!important;
     line-height: 72px;
 }
+.sec1{
+    width: 100%;
+    background-color: rgba(204,204,204,0.1)!important;
+    margin-top: 2%;
+    height: auto;
+}
+.sec1 .container{
+    
+}
