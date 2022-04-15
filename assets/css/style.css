@@ -235,30 +235,12 @@ header{
     height: auto;
 }
 
-/* .column {
-    float: left;
-    width: 25%;
-    background-color: #000000;
-  }
-  
-  /* Clear floats after the columns 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 50%;
-    }
-  } */
   .box{
       background: #CCCCCC80;
-      
   }
   /* Float four columns side by side */
 .column {
-    float: left;
+     float: left; 
     width: 12%;
     padding: 0 10px;
     
@@ -296,7 +278,9 @@ header{
     }
   }
   /* section 2 */
-  
+  .sec2{
+      padding-bottom: 15px;
+  }
 
   .sec2 .column {
     float: left;
@@ -442,6 +426,9 @@ header{
         width: 25%;
         padding: 2%; 
         margin-left: 5%;
+      }
+      .card-section h1{
+          text-align: center;
       }
       .card-section .column img{
           width: 90%;
