@@ -439,8 +439,12 @@ header{
     /* card section */
     .card-section .column {
         float: left;
-        width: 20%;
-        padding: 5%;
+        width: 25%;
+        padding: 2%; 
+        margin-left: 5%;
+      }
+      .card-section .column img{
+          width: 90%;
       }
       
       /* Clear floats after the columns */
