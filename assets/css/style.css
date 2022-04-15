@@ -354,11 +354,6 @@ header{
     margin-bottom: 2em;
     }
     
-    h2 {
-    font-weight: 400;
-    font-size: 15px;
-    }
-    
     .footer ul {
     list-style: none;
     padding-left: 0;
@@ -441,4 +436,23 @@ header{
     flex: 2 0px;
     }
     }
-    
+    /* card section */
+    .card-section .column {
+        float: left;
+        width: 20%;
+        padding: 5%;
+      }
+      
+      /* Clear floats after the columns */
+     .card-section .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   .card-section .column {
+      width: 100%;
+    }
+  }
+
