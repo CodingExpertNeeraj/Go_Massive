@@ -231,20 +231,35 @@ header{
 .sec1{
     width: 100%;
     background-color: rgba(204,204,204,0.1)!important;
-    margin-top: 2%;
-    height: auto;
+    margin-top: 5%;
+    height: 400px;
+}
+.sec1 .mailbox{
+   padding-top: 100px;
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
 }
 .sec1 input{
     width: 250px;
     height: 40px;
     margin: 3px;
 }
-@media (max-width:1200px) {
+.sec1 button{
+    background-color: #e50000;
+    width: 170px;
+    border: none;
+    margin-left: 2%;
+    height: 38px;
+    font-size: 16px;
+    color: #ffffff;
+}
+/* @media (min-width:400px),(max-width:1200px) {
     .sec1 input{
         width: 250px;
     }
-}
-@media (min-width:200px) {
+} */
+@media (max-width:400px) {
     .sec1 input{
         width: 170px;
     }
@@ -252,12 +267,14 @@ header{
 
   .box{
       background: #CCCCCC80;
+      width: 100%;
   }
   /* Float four columns side by side */
 .column {
      float: left; 
     width: 12%;
     padding: 0 10px;
+    margin: auto;
     
     
   }
@@ -342,6 +359,7 @@ header{
     padding: 50px;
     color: #fff;
     background-color:#313131;
+    height: 400px;
     }
     
     .footer > * {
@@ -400,8 +418,8 @@ header{
     /* text-align: center; */
     color: #999;
     padding-top: 50px;
-    margin-top: 3%;
-    font-size: 14px;
+    margin-top: 1%;
+    font-size: 12px;
     }
     
     .l-footer p {
