@@ -95,9 +95,6 @@ header{
      background-color: rgb(255, 254, 254); 
     color: #e50000;
     padding: 1rem 2rem;
-    /* border-radius: 2rem; */
-    /* transition: background-color .5s ease; */
-    /* width: 200px; */
     font-weight: bold;
     border: 2px solid #e50000;
     font-size: 22px;
@@ -106,11 +103,6 @@ header{
     width: 300px;
     text-align: center;
 }
-
-/* #nav-cta:hover{
-    background-color: #d3d3d3;
-} */
-
 
 /*Apply styles after scroll*/
 .scrolling-active{
@@ -143,17 +135,6 @@ header{
 
 /*Apply styles after scroll end*/
 
-
-/* Hero Demo Content*/
-/* .hero{
-    width: 100%;
-    height: 100vh;
-     background: url("../images/Screenshot\ \(364\).png") center no-repeat;
-    
-    background-size: cover;
-    position: relative;
-} */
-
 .hero::after{
     content: '';
     width: inherit;
@@ -174,4 +155,29 @@ header{
     font-weight: bolder;
     font-size: 20px;
     color: #151515;
+}
+.landingPageAnimation{
+    /* background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("/assets/images/iStock-1193095410-scaled\ \(1\).jpg"); */
+    background-size: cover;
+    background-image:linear-gradient(180deg,rgba(60,60,60,0.3) 0%,rgba(60,60,60,0.3) 100%),url("https://gomassive.in/wp-content/uploads/2022/04/iStock-1193095410-scaled.jpg")!important;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.landingPageAnimation button{
+    height: 42px;
+    border: none;
+}
+.landingPageAnimation button a{
+    color: white;
+}
+.landingPageAnimation button a:hover{
+    text-decoration: none;
+}
+.landingPageAnimation button a{
+    text-decoration: none;
 }
