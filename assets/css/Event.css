@@ -366,6 +366,12 @@ header{
         }
 
         /* ekdum naya */
+
+        .card-section{
+            margin-top: 10%;
+            border-top: 2px solid black;
+            
+        }
         
 .card-section .column {
     float: left;
@@ -373,15 +379,15 @@ header{
     padding: 2%; 
     margin-left: 5%;
   }
-  .card-section .heading{
-      /* text-align: center; */
-      margin-left: 12%;
-      font-size: 55px;
+  .card-section h1{
+       text-align: center; 
+      /* margin-left: 12%; */
+      /* font-size: 55px; */
       /* width: 50%; */
-  }
-  .card-section p{
-      margin-left: 12%;
-      font-size: 19px;
+      color: #000000;
+      border-top: #000000;
+      box-sizing: border-box;
+      border-top: 10px;
   }
   .card-section .column img{
       width: 70%;
