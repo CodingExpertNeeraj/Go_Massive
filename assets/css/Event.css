@@ -237,7 +237,7 @@ header{
 /* searchbox */
 .sec1{
     width: 100%;
-    background-color: rgba(204,204,204,0.1)!important;
+    background-color:#CCCCCC1A;
     margin-top: 5%;
     height: 200px;
 }
@@ -245,7 +245,8 @@ header{
 .sec1 input{
     width: 250px;
     height: 40px;
-    margin: auto;
+    margin-top: 50%;
+    border: 1px solid #ccc;
 }
 .sec1 button{
     background-color: #e50000;
