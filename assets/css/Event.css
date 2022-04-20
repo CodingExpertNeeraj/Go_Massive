@@ -364,3 +364,40 @@ header{
                 margin-left: 0;
             }
         }
+
+        /* ekdum naya */
+        
+.card-section .column {
+    float: left;
+    width: 25%;
+    padding: 2%; 
+    margin-left: 5%;
+  }
+  .card-section .heading{
+      /* text-align: center; */
+      margin-left: 12%;
+      font-size: 55px;
+      /* width: 50%; */
+  }
+  .card-section p{
+      margin-left: 12%;
+      font-size: 19px;
+  }
+  .card-section .column img{
+      width: 70%;
+      border-radius: 50%;
+    margin: 25%;
+  }
+  
+  /* Clear floats after the columns */
+ .card-section .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.card-section .column {
+  width: 100%;
+}
+}
