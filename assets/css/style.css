@@ -175,13 +175,18 @@ header{
     font-size: 20px;
     color: #151515;
 }
+body{
+    overflow-x: hidden;
+}
 
  
  .landingPageAnimation{
      background-image:  linear-gradient(180deg,rgba(255,255,255,0) 80%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
     background-size:cover;
     position:relative;
-    padding-top: 75px; 
+    padding-top: 75px;
+    overflow-x: hidden; 
+    
 }
 .landingPageAnimation button{
     margin-left: 12%;
