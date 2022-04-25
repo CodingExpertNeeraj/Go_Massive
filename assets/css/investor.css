@@ -162,7 +162,56 @@ header{
     font-size: 20px;
     color: #151515;
 }
-.landingPageAnimation{
+/* chhuna mana hai  */
+.container{
+    /* background: url("..//images/car2.jpg"); */
+    background-size: cover;
+    height: 100vh; 
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    /* background: url("http://127.0.0.1:5500/assets/images/GEN_Join_new.jpg"); */
+    /* background-size: cover; */
+    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/GEN_Join_new.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.para{
+    margin-top:  55%;
+    padding: 10%;
+    
+}
+.btn{
+    margin: 5px;
+    margin-top: 3%;
+    float: left;
+    margin-left: 5%;
+    font-size: 22px;
+}
+.btn button{
+    width: 250px;
+    height: 45px;
+    /* background-color: red; */
+    color: antiquewhite;
+    font-size: 22px;
+}
+.heading{
+    width: 100%;
+    padding-top: 15%;
+    margin-left: 10%;
+}
+.heading h1{
+    font-size: 80px;
+}
+.heading p{
+    font-size: 34px;
+}
+/* yha tak */
+/* .landingPageAnimation{
     background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/GEN_Join_new.jpg");
     background-size: cover;
     position:relative;
@@ -185,7 +234,7 @@ header{
 }
 .landingPageAnimation button a{
     text-decoration: none;
-}
+} */
 .sec1 p{
     font-size: 20px;
     line-height: 37px;
