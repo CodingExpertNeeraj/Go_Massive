@@ -178,6 +178,10 @@ header{
 body{
     overflow-x: hidden;
 }
+@font-face {
+    font-family: ;
+    src: url("..//Qanelas\ Font\ Family/Qanelas");
+}
 
  
  .landingPageAnimation{
