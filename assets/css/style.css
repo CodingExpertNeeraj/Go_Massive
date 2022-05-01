@@ -200,11 +200,28 @@ body{
     line-height: 63px;
 }
 @font-face {
-    font-family: abc ;
-    src: url("/assets/fonts/QanelasSoft-UltraLight.otf");
+    font-family: light ;
+    src: url("/assets/fonts/QanelasSoft-Light.ttf");
 }
-.row{
-    font-family: abc;
+.row p{
+    font-family: light;
+    color: #000000!important;
+    text-align: left;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+    overflow-wrap: break-word;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
  
  .landingPageAnimation{
