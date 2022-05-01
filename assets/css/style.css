@@ -509,8 +509,18 @@ body{
         padding: 2%; 
         margin-left: 5%;
       }
+      @font-face {
+          font-family: semibold;
+          src: url(/assets/fonts/QanelasSoft-SemiBold.ttf);
+      }
       .card-section h1{
           text-align: center;
+          font-family: semibold;
+          font-size: 40px;
+          color: #333;
+            padding-bottom: 10px;
+            line-height: 1em;
+            font-weight: 500;
       }
       .card-section .column img{
           width: 90%;
