@@ -72,6 +72,16 @@ header{
     margin: 0 2rem;
     position: relative;
 }
+@font-face {
+    font-family: soft;
+    src: url(/assets/fonts/QanelasSoft-Medium.ttf);
+}
+.nav-link{
+    font-family: soft;
+}
+#nav-cta{
+    font-family: soft;
+}
 
 .nav-link::after{
     content: '';
