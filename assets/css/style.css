@@ -179,10 +179,13 @@ body{
     overflow-x: hidden;
 }
 @font-face {
-    font-family: ;
-    src: url("..//Qanelas\ Font\ Family/Qanelas");
+    font-family: abc ;
+    src: url("/assets/fonts/QanelasSoft-UltraLight.otf");
 }
 
+.row{
+    font-family: abc;
+}
  
  .landingPageAnimation{
      background-image:  linear-gradient(180deg,rgba(255,255,255,0) 80%,#ffffff 100%) ,url("../images/image-000-scaled.jpg");
@@ -231,13 +234,13 @@ body{
     font-size: 24px;
 }}
 .landingPageAnimation h3 {
-    font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Qanelas-semibold';
     font-weight: 300;
     font-size: 90px;
     color: #000000!important;
     line-height: 72px;
 }
-.sec1{
+/* .sec1{
     width: 100%;
     background-color: rgba(204,204,204,0.1)!important;
     margin-top: 5%;
@@ -267,7 +270,7 @@ body{
     .sec1 input{
         width: 250px;
     }
-} */
+} 
 @media (max-width:400px) {
     .sec1 input{
         width: 170px;
@@ -283,7 +286,7 @@ body{
      float: left; 
     width: 12%;
     padding: 0 10px;
-    margin: auto;
+    margin: auto; 
     
     
   }
