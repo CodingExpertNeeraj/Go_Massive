@@ -57,7 +57,7 @@ header{
 }
 
 .nav .logo{
-    font-size: 3.5rem;
+    font-size: .5rem;
     font-weight: bold;
 }
 
@@ -132,7 +132,7 @@ header{
 }
 
 .scrolling-active .nav a{
-    color: #313131;
+    /* color: #313131; */
 }
 
 .scrolling-active #nav-cta{
@@ -217,11 +217,21 @@ body{
     padding: 0;
     border: 0;
     outline: 0;
-    
     overflow-wrap: break-word;
     -webkit-text-size-adjust: 100%;
     vertical-align: baseline;
     background: transparent;
+}
+video{
+    width: 100%;
+    box-shadow: 10px 10px #e50000;
+    
+}
+.col-lg-5{
+    margin-left: 8%;
+}
+.col-lg-5 img{
+    box-shadow: 10px 10px #e50000;
 }
  
  .landingPageAnimation{
@@ -241,7 +251,7 @@ body{
     border-color: #e50000;
     border-radius: 0px;
     font-size: 22px;
-    /* font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif!important; */
+     font-family: semibold;
     font-weight: 700!important;
     background-color: #e50000;
     position: relative;
@@ -251,27 +261,27 @@ body{
 .landingPageAnimation button:hover{
     box-shadow:  10px 10px 0 0 rgb(34, 28, 28);
 }
+@font-face {
+    font-family:Qanelas-regular;
+    src: url(/assets/fonts/QanelasSoft-Regular.ttf);
+}
 .landingPageAnimation h1{
     position: relative; 
     left: 13%;
     bottom: 290px;
     font-size: 42px;
-    font-family: 'Qanelas-regular',Helvetica,Arial,Lucida,sans-serif;
+    font-family: Qanelas-regular;
     font-size: 42px;
     line-height: 43px;
     font-weight: 500;
-
-
 } 
-/* .landingPageAnimation h1 h3{
-    font-weight: 700;
-} */
+
 @media only screen and (max-width: 767px){
 .landingPageAnimation h3 {
     font-size: 24px;
 }}
 .landingPageAnimation h3 {
-    font-family: 'Qanelas-semibold';
+    font-family: semibold;
     font-weight: 300;
     font-size: 90px;
     color: #000000!important;
@@ -454,7 +464,7 @@ body{
     .links a:hover{
         color: #fff;
         text-decoration: none;
-        font-family: 'Qanelas-regular',Helvetica,Arial,Lucida,sans-serif;
+        font-family: Qanelas-regular;
 }
     
     
@@ -477,7 +487,7 @@ body{
     color: #fff;
     font-size: 17px;
     margin-top: 2%;
-    font-family: 'Qanelas-regular',Helvetica,Arial,Lucida,sans-serif;
+    font-family: Qanelas-regular;
     }   
     .l-footer p a{
         color: #ffffff;
@@ -502,6 +512,18 @@ body{
     flex: 2 0px;
     }
     }
+    .row button{
+        font-family: semibold;
+        color: #ffffff!important;
+    border-width: 0px!important;
+    border-color: #e50000;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 700!important;
+    background-color: #3c3c3c;
+    cursor: pointer;
+}
+    
     /* card section */
     .card-section .column {
         float: left;
