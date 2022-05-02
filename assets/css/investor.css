@@ -239,16 +239,24 @@ body{
 .landingPageAnimation button a{
     text-decoration: none;
 } */
+@font-face {
+    font-family: light;
+    src: url(/assets/fonts/QanelasSoft-Light.ttf);
+}
 .sec1 p{
     font-size: 20px;
     line-height: 37px;
-    font-family: 'Qanelas-light',Helvetica,Arial,Lucida,sans-serif;
+    font-family: light;
     font-weight: 500;
+}
+@font-face {
+    font-family: semibold;
+    src: url(/assets/fonts/QanelasSoft-SemiBold.ttf);
 }
 .sec1 h1{
     font-size: 50px;
     line-height: 63px;
-    font-family: 'Qanelas-semibold',Helvetica,Arial,Lucida,sans-serif;
+    font-family: semibold;
     color: #000000!important;
 }
 .sec1{
