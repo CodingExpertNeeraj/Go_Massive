@@ -66,6 +66,7 @@ header{
 .nav-link{
     margin: 0 2rem;
     position: relative;
+    font-family: semibold;
 }
 
 .nav-link::after{
@@ -100,6 +101,7 @@ header{
 #nav-cta{
     width: 300px;
     text-align: center;
+    font-family: semibold;
 }
 
 /* #nav-cta:hover{
