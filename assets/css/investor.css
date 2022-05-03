@@ -80,6 +80,16 @@ header{
     transform-origin: left;
     transition: transform .5s ease;
 }
+@font-face {
+    font-family: soft;
+    src: url(/assets/fonts/QanelasSoft-Medium.ttf);
+}
+.nav-link{
+    font-family: soft;
+}
+#nav-cta{
+    font-family: soft;
+}
 
 .nav-link:hover::after{
     transform: scaleX(1);
@@ -102,11 +112,6 @@ header{
     text-align: center;
 }
 
-/* #nav-cta:hover{
-    background-color: #d3d3d3;
-} */
-
-
 /*Apply styles after scroll*/
 .scrolling-active{
     background-color: #fff;
@@ -128,18 +133,11 @@ header{
     color: #ffffff;
 }
 
-/* .scrolling-active #nav-cta:hover{
-    background-color: #151515;
-} */
-
 .scrolling-active .nav-link::after{
     background-color: #313131;
 }
 
 /*Apply styles after scroll end*/
-
-
-
 
 .hero::after{
     content: '';
@@ -259,7 +257,6 @@ body{
     font-family: semibold;
     color: #000000!important;
 }
-.
 /* footer section */
 .footer {
     /* display: flex; */
@@ -310,10 +307,14 @@ body{
     padding: 5px;
     margin-top: 2%;
     }
+    @font-face {
+        font-family: Qanelas-regular;
+        src: url(/assets/fonts/QanelasSoft-Regular.ttf);
+    }
     .links a:hover{
         color: #fff;
         text-decoration: none;
-        font-family: 'Qanelas-regular',Helvetica,Arial,Lucida,sans-serif;
+        font-family: Qanelas-regular;
 }
     
     
@@ -336,7 +337,7 @@ body{
     color: #fff;
     font-size: 17px;
     margin-top: 2%;
-    font-family: 'Qanelas-regular',Helvetica,Arial,Lucida,sans-serif;
+    font-family: Qanelas-regular;
     }   
     .l-footer p a{
         color: #ffffff;
