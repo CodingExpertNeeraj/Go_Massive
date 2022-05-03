@@ -173,6 +173,22 @@ header{
 body{
     overflow-x: hidden;
 }
+@font-face {
+    font-family: semibold;
+    src: url(/assets/fonts/QanelasSoft-SemiBold.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(/assets/fonts/QanelasSoft-Light.ttf);
+}
+.row h2{
+    font-family: semibold;
+    font-size: 50px;
+}
+.row p{
+    font-family: light;
+    font-size: 22px;
+}
 
 .landingPageAnimation{
     background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/GEN_events-scaled.jpg");
@@ -213,8 +229,9 @@ body{
   .card-section h1{
        text-align: center; 
       /* margin-left: 12%; */
-      /* font-size: 55px; */
+       font-size: 40px; 
       /* width: 50%; */
+      font-family: semibold;
       color: #000000;
       border-top: #000000;
       box-sizing: border-box;
