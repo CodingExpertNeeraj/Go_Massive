@@ -188,6 +188,9 @@ header{
    .card .title h1{
        font-family: medium;
        font-size: 22px;
+       color: #000000!important;
+    line-height: 0.5em;
+    font-weight: 500;
    }
    
    .card{
@@ -203,10 +206,6 @@ header{
      width: 100%;
      border-top-right-radius: 5px;
      border-top-left-radius: 5px;
-     
-     
-   
-    
     }
    
    .title{
@@ -215,9 +214,9 @@ header{
      padding: 10px;
      
     }
-   
-   h1{
-     font-size: 20px;
+    .card .des p{
+        font-family: medium;
+        font-size: 18px;
     }
    
    .des{
