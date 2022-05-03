@@ -275,7 +275,11 @@ header{
     font-family: medium;
     src: url(/assets/fonts/QanelasSoft-Medium.ttf);
 }
-
+.card-section h1{
+    font-family: semibold;
+    font-size: 50px;
+    margin-left: 12%;
+}
 .card-section .column {
     float: left;
     width: 25%;
@@ -291,6 +295,9 @@ header{
   .card-section p{
       margin-left: 12%;
       font-size: 19px;
+      font-family: light;
+      color: #000000!important;
+
   }
   .card-section .column img{
       width: 60%;
@@ -323,16 +330,22 @@ header{
     padding: 2%; 
     margin-left: 5%;
   }
-  .Tie-ups .heading{
+  .Tie-ups h1{
       /* text-align: center; */
       margin-left: 12%;
-      font-size: 55px;
+      font-size: 50px;
+      font-family: semibold;
       margin-top: 3%;
       /* width: 50%; */
+  }
+  @font-face {
+      font-family: light;
+      src: url(/assets/fonts/QanelasSoft-Light.ttf);
   }
   .Tie-ups p{
       margin-left: 12%;
       font-size: 19px;
+      font-family: light;
   }
   .Tie-ups .column img{
       width: 50%;
