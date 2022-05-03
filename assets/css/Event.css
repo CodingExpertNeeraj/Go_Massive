@@ -66,6 +66,7 @@ header{
 .nav-link{
     margin: 0 2rem;
     position: relative;
+    font-family: semibold;
 }
 
 .nav-link::after{
@@ -90,6 +91,7 @@ header{
      background-color: rgb(255, 254, 254); 
     color: #e50000;
     padding: 1rem 2rem;
+    /* font-family: semibold; */
     /* border-radius: 2rem; */
     /* transition: background-color .5s ease; */
     /* width: 200px; */
@@ -100,6 +102,7 @@ header{
 #nav-cta{
     width: 300px;
     text-align: center;
+    font-family: semibold;
 }
 
 /* #nav-cta:hover{
@@ -233,7 +236,7 @@ body{
       /* width: 50%; */
       font-family: semibold;
       color: #000000;
-      border-top: #000000;
+    
       box-sizing: border-box;
       border-top: 10px;
   }
