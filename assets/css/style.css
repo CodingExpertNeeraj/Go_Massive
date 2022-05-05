@@ -270,3 +270,72 @@ body{
     width: 100%;
     box-shadow: 10px 10px #e50000;
 }
+.col-lg-5 img{
+    width: 100%;
+    box-shadow: 10px 10px #e50000;
+}
+.body{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.body .container{
+    
+}
+.mailbox{
+    background-color: rgba(204,204,204,0.1)!important;
+    position: relative;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 980px){
+.mailbox {
+    padding: 50px 0;
+}
+}
+
+    @media only screen and (max-width: 767px){
+.mailbox .row {
+    width: 80%;
+}
+}
+@media (max-width: 980px){
+.mailbox .row {
+    padding: 30px 0;
+}
+}
+.mailbox .row{
+    max-width: 1920px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    margin: 10%;
+    padding: 50px;
+}
+
+.box-section{
+    width: 100%;
+    align-items: center;
+    background-color: rgba(204,204,204,0.5)!important;
+}
+
+.box-section .container{
+    width: 50%;
+    padding: 10%;
+}
+.box-section .row{
+    padding: 2%;
+}
+.box-section .card{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.box-section img{
+    width: 100%;
+    padding: 20px;
+}
