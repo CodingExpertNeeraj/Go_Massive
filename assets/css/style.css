@@ -201,6 +201,7 @@ body{
 }
 .main-row h1{
     font-family: light;
+    font-size: 24px;
 }
 .main-row h3{
     font-family: semibold;
@@ -324,11 +325,12 @@ body{
 }
 
 .box-section .container{
-    width: 50%;
+    width: 100%;
     padding: 10%;
 }
 .box-section .row{
     padding: 2%;
+    width: 50%;
 }
 .box-section .card{
     width: 100%;
@@ -337,5 +339,5 @@ body{
 }
 .box-section img{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
