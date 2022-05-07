@@ -201,7 +201,7 @@ body{
 }
 .main-row h1{
     font-family: light;
-    font-size: 24px;
+    font-size: 30px;
 }
 .main-row h3{
     font-family: semibold;
@@ -275,11 +275,14 @@ body{
     width: 100%;
     box-shadow: 10px 10px #e50000;
 }
-.body{
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    
+/* .body{
+    margin: 12%;
+} */
+@media(max-width:600px){
+    .body{
+        padding: 50px;
+        text-align: left;
+    }
 }
 .body .container{
     
