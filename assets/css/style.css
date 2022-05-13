@@ -286,7 +286,13 @@ body{
 }
 .body .container{
     margin-top: 5%;
-    margin-left: 12%;
+    margin-left: 10%;
+}
+@media(max-width:600px){
+    .body .container h2{
+        text-align: start;
+        font-size: 30px;
+    }
 }
 .mailbox{
     background-color: rgba(204,204,204,0.1)!important;
