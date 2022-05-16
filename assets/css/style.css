@@ -294,6 +294,13 @@ body{
         font-size: 30px;
     }
 }
+@media(max-width:600px){
+    .body .container .row{
+        text-align: center;
+        font-size: 30px;
+        margin: 5%;
+    }
+}
 .mailbox{
     background-color: rgba(204,204,204,0.1)!important;
     position: relative;
@@ -328,26 +335,12 @@ body{
     padding: 50px;
 }
 
-.box-section{
-    width: 100%;
-    align-items: center;
-    background-color: rgba(204,204,204,0.5)!important;
-}
-
-.box-section .container{
-    width: 100%;
-    padding: 10%;
-}
-.box-section .row{
-    padding: 2%;
-    width: 50%;
-}
-.box-section .card{
-    width: 100%;
-    background-color: #ffffff;
-    margin: 10%;
-}
-.box-section img{
-    width: 100%;
+.card{
     padding: 10px;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+}
+.card img{
+    width: 100%;
+    padding: 30px;
 }
