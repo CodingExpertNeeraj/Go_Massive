@@ -215,6 +215,7 @@ header{
     .main-row h3 {
         font-size: 17px;
         max-height: 100px;
+        margin-top: -40%;
     }
     }
     
