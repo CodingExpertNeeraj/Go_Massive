@@ -151,7 +151,7 @@ header{
     position: relative;
 } */
 
-.hero::after{
+/* .hero::after{
     content: '';
     width: inherit;
     height: inherit;
@@ -159,7 +159,7 @@ header{
     top: 0;
     left: 0;
     background-color: rgba(0,0,0,.5);
-}
+} */
 
 .demo-content{
     width: 100%;
@@ -210,18 +210,19 @@ header{
     font-size: 24px;
 }
 }
-    @media only screen and (max-width: 767px){
-.main-row{
-    padding-top: 0px!important;
-    padding-bottom: 0px!important;
-    padding-top: 0px!important;
-    padding-bottom: 0px!important;
-}
+
+@media only screen and (max-width: 767px){
+    .main-row h3 {
+        font-size: 17px;
+        max-height: 100px;
     }
+    }
+    
+    
 .main-row {
     padding-bottom: 0px!important;
     margin-bottom: 90px!important;
-    padding-bottom: 0px;
+    
 }
 @media only screen and (max-width: 767px){
 .main-row{
@@ -231,8 +232,8 @@ header{
  
  @media only screen and (max-width: 767px){
 .main-page {
-    padding-bottom: 20px;
-    margin-top: 72px;
+    padding-bottom: 40px;
+    margin-top: 30px;
 }
  }
 
@@ -242,52 +243,28 @@ header{
 }
 }
 /* ------------- */
-.main{
-
-    margin: 2%;
-   }
-   .card .title h1{
-       font-family: medium;
-       font-size: 22px;
-       color: #000000!important;
-    line-height: 0.5em;
-    font-weight: 500;
-   }
-   
-   .card{
-        width: 15%;
-        display: inline-block;
-        /* box-shadow: 2px 2px 20px black; */
-        border-radius: 5px; 
-        margin: 6%;
-        margin-left: 10%;
-       }
-   
-   .image img{
-     width: 100%;
-     border-top-right-radius: 5px;
-     border-top-left-radius: 5px;
-    }
-   
-   .title{
-    
-     text-align: center;
-     padding: 10px;
-     
-    }
-    .card .des p{
-        font-family: medium;
-        font-size: 18px;
-    }
-   
-   .des{
-     padding: 3px;
-     text-align: center;
-    
-     padding-top: 10px;
-           border-bottom-right-radius: 5px;
-     border-bottom-left-radius: 5px;
-   }
+.hero{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10%;
+}
+.hero .container .row .card{
+    width: 60%;
+    padding: 15px;
+}
+.hero .container .row .card img{
+    width:100%;
+    border-radius: 50%;
+}
+.hero .container .row .card .detail{
+    width: 100%;
+}
+.hero .container .row .card h1{
+    font-size: 18px;
+    text-align: center;
+    font-family: semibold;
+}
    .last a{
        color: #ffffff;
        font-size: 18px;
