@@ -259,11 +259,15 @@ header{
 }
 .hero .container .row .card .detail{
     width: 100%;
+    text-align: center;
 }
 .hero .container .row .card h1{
-    font-size: 18px;
-    text-align: center;
+    font-size: 20px;
     font-family: semibold;
+}
+.hero .container .row .card .detail p{
+    font-family: medium;
+    font-size: 18px;
 }
    .last a{
        color: #ffffff;
