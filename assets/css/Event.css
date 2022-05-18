@@ -310,6 +310,35 @@ body{
     padding: 50px 0;
 }
 }
+/* new */
+.about{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10%;
+}
+.about .container .row .card{
+    width: 60%;
+    padding: 15px;
+}
+.about .container .row .card img{
+    width:100%;
+    border-radius: 50%;
+}
+.about .container .row .card .detail{
+    width: 100%;
+    /* text-align: center; */
+}
+.about .container .row .card h1{
+    font-size: 22px;
+    font-family: semibold;
+    padding: 0px 0px 10px;
+}
+.about .container .row .card .detail p{
+    font-family: regular;
+    font-size: 16px;
+    color: #AAAAAA;
+}
         /* ekdum naya */
 
         .card-section{
