@@ -161,11 +161,7 @@ header{
     color: #151515;
 }
 /* chhuna mana hai  */
-.container{
-     /* background: url("https://images.unsplash.com/photo-1422466654108-5e533f591881?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
-    background-size: cover;
-     */
-}
+
 body{
     overflow-x: hidden;
 }
@@ -174,43 +170,96 @@ body{
     
 }
 .main{
+    background-image: url("/assets/images/GEN_Join_new.jpg")!important;
+    padding-top: 75px;
     
-    background:url("https://images.unsplash.com/photo-1422466654108-5e533f591881?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
     
+}
+@media only screen and (max-width: 767px){
+.main {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-top: 72px;
+}
+}
+@media (max-width: 980px){
+.main {
+    padding: 50px 0;
+}
+}
+.main-row{
+    padding-bottom: 0px!important;
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+    
+}
+@media only screen and (max-width: 767px){
+.main-row {
+    width: 80%;
+}
+}
+@media (max-width: 980px){
+.main-row {
+    padding: 30px 0;
+}
+}
+@media (max-width: 980px){
+.main-col{
+    margin-bottom: 0;
+}
+}
+.main-col{
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: 15%;
+}
+@font-face {
+    font-family: regular;
+    src: url(/assets/fonts/QanelasSoft-Regular.ttf);
+}
+@font-face {
+    font-family: semibold;
+    src: url(/assets/fonts/QanelasSoft-SemiBold.ttf);
+}
+.main .main-col h3{
+    font-family: regular;
+    font-size: 36px;
+    color: #000000!important;
+    line-height: 33px;
+    padding-bottom: 10px;
+    font-weight: 500;
 }
 
-.para{
-    margin-top:  55%;
-    padding: 10%;
-    
+@media only screen and (max-width: 767px){
+.main .main-col h3{
+    font-size: 24px;
 }
-.btn{
-    margin: 5px;
-    margin-top: 3%;
-    float: left;
-    margin-left: 5%;
-    font-size: 22px;
-    display: flex;
 }
-.btn button{
-    width: 250px;
-    height: 45px;
-    /* background-color: red; */
-    color: antiquewhite;
-    font-size: 22px;
+.main .main-col h1{
+    font-family: semibold;
+    font-size: 90px;
+    color: #000000!important;
+    line-height: 1.1em;
+    margin: 0.67em 0;
+    font-weight: 500;
 }
-.heading{
-    width: 100%;
-    padding-top: 15%;
-    margin-left: 10%;
+@media only screen and (max-width: 767px){
+.main .main-col h1 {
+    font-size: 42px;
+    line-height: 43px;
 }
-.heading h1{
-    font-size: 80px;
-}
-.heading p{
-    font-size: 34px;
 }
 /* yha tak */
 /* .landingPageAnimation{

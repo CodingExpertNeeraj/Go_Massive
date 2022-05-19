@@ -230,8 +230,13 @@ body{
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 
+}
+@media(min-width:500px){
+    .main-page{
+        background-attachment:scroll;
+    }
 }
 .main-row{
     max-width: 1920px;
