@@ -223,6 +223,11 @@ body{
     margin-top: 10%;
     margin-left: 15%;
 }
+@media(max-width:500px) {
+    .main-col{
+        margin-top: -55%;
+    }
+}
 @font-face {
     font-family: regular;
     src: url(/assets/fonts/QanelasSoft-Regular.ttf);
@@ -284,30 +289,28 @@ body{
 }
 
 /* yha tak */
-/* .landingPageAnimation{
-    background-image:  linear-gradient(180deg,rgba(255,255,255,0) 90%,#ffffff 100%) ,url("../images/GEN_Join_new.jpg");
-    background-size: cover;
-    position:relative;
-    width: 100%;
-    height: 100%;
-    font-size: 40px;
-    padding-left: 30px;
-    margin-bottom: 20px;
+.content{
+   margin: 7%;
+   margin: 7% 10%;
 }
-
-.landingPageAnimation button{
-    height: 42px;
-    border: none;
+.content .row h1{
+    font-size: 50px;
+    font-family: semibold;
+    color: #000000!important;
+    margin: 0.67em 0;
+    padding-bottom: 10px;
+    font-weight: 500;
 }
-.landingPageAnimation button a{
-    color: white;
+@media only screen and (max-width: 767px){
+.content .row h1 {
+    font-size: 30px;
+    line-height: 43px;
 }
-.landingPageAnimation button a:hover{
-    text-decoration: none;
 }
-.landingPageAnimation button a{
-    text-decoration: none;
-} */
+.content .row p{
+    font-size: 22px;
+    font-family: light;
+}
 @font-face {
     font-family: light;
     src: url(/assets/fonts/QanelasSoft-Light.ttf);
