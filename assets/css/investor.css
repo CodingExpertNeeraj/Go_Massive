@@ -315,22 +315,53 @@ body{
     font-family: light;
     src: url(/assets/fonts/QanelasSoft-Light.ttf);
 }
-.row p{
-    font-size: 20px;
-    line-height: 37px;
-    font-family: light;
-    font-weight: 500;
-}
+
 @font-face {
     font-family: semibold;
     src: url(/assets/fonts/QanelasSoft-SemiBold.ttf);
 }
-.row h2{
+/* body section */
+.body-section{
+    margin: 5%;
+}
+.body-section .row h2{
     font-size: 50px;
-    line-height: 63px;
     font-family: semibold;
     color: #000000!important;
+    margin: 0.67em 0;
 }
+@media only screen and (max-width: 300px){
+.body-section .row h2 {
+    font-size: 30px;
+    line-height: 43px;
+    
+}
+}
+.body-section .row p{
+    font-size: 23px;
+    font-family: light;
+}
+@media(max-width:500px){
+    .body-section .row p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 767px){
+.body-section .row p {
+    line-height: 27px;
+}
+}
+
+.body-section .row .col-lg-5 img{
+    box-shadow: 10px 10px 0px 0px #e50000;
+    width: 100%;
+    
+}
+.body-section .row .col-lg-5{
+    margin: 3%;
+}
+
+
 /* footer section */
 .footer {
     /* display: flex; */
