@@ -290,10 +290,9 @@ body{
 
 /* yha tak */
 .content{
-   margin: 7%;
-   margin: 7% 10%;
+    margin: 5%;
 }
-.content .row h1{
+.content .row h2{
     font-size: 50px;
     font-family: semibold;
     color: #000000!important;
@@ -302,7 +301,7 @@ body{
     font-weight: 500;
 }
 @media only screen and (max-width: 767px){
-.content .row h1 {
+.content .row h2 {
     font-size: 30px;
     line-height: 43px;
 }
