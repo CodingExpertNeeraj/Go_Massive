@@ -258,49 +258,33 @@ body{
     padding: 50px 0;
 }
 }
-/* rows start */
-.row h2{
+/* body section */
+.body{
+    margin: 5%;
+}
+.body .row h2{
     font-size: 50px;
     font-family: semibold;
+    color: #000000!important;
+    margin: 0.67em 0;
 }
-.row p{
+@media only screen and (max-width: 500px){
+.body .row h2 {
+    font-size: 30px;
+    line-height: 43px;
+}
+}
+.body .row p{
     font-size: 22px;
     font-family: light;
 }
-.row video{
-    width: 100%;
-    box-shadow: 10px 10px #e50000;
-}
-.col-lg-5 img{
-    width: 100%;
-    box-shadow: 10px 10px #e50000;
-}
-/* .body{
-    margin: 12%;
-} */
-@media(max-width:600px){
-    .body{
-        padding: 50px;
-        text-align: left;
+@media(max-width:500px){
+    .body .row p{
+        font-size: 18px;
     }
 }
-.body .container{
-    margin-top: 5%;
-    margin-left: 10%;
-}
-@media(max-width:600px){
-    .body .container h2{
-        text-align: start;
-        font-size: 30px;
-    }
-}
-@media(max-width:600px){
-    .body .container .row{
-        text-align: center;
-        font-size: 30px;
-        margin: 5%;
-    }
-}
+
+
 .mailbox{
     background-color: rgba(204,204,204,0.1)!important;
     position: relative;
