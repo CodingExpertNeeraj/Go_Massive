@@ -294,6 +294,39 @@ body{
     padding: 50px 0;
 }
 }
+/* new section */
+.content{
+    
+    margin: 5%;
+}
+.content .row h2{
+    font-size: 50px;
+    font-family: semibold;
+    color: #000000!important;
+    margin: 0.67em 0;
+}
+@media only screen and (max-width: 500px){
+.content .row h2 {
+    font-size: 30px;
+    line-height: 43px;
+}
+}
+.content .row p{
+    font-size: 22px;
+    font-family: light;
+}
+@media(max-width:500px){
+    .content .row p{
+        font-size: 18px;
+    }
+}
+.content .row .col-lg-5{
+    margin: 3%;
+}
+.content .row .col-lg-5 img{
+    width: 100%;
+    box-shadow: 10px 10px 0px 0px #e50000;
+}
 /* new */
 .about{
     justify-content: center;
