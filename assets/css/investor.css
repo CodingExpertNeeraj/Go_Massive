@@ -360,6 +360,10 @@ body{
 .body-section .row .col-lg-5{
     margin: 3%;
 }
+.body-section .row{
+    margin-top: 5%;
+}
+
 
 
 /* footer section */
@@ -369,7 +373,8 @@ body{
     padding: 50px;
     color: #fff;
     background-color:#313131;
-    height: 400px;
+    height: auto;
+    
     }
     
     .footer > * {
@@ -379,6 +384,11 @@ body{
     .l-footer {
     margin-right: 1.25em;
     margin-bottom: 2em;
+    }
+    @media(max-width:767px){
+        .l-footer img{
+            width: 100%;
+        }
     }
     
     .footer ul {
