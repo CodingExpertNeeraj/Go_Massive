@@ -304,11 +304,17 @@ body{
 .content .row h2 {
     font-size: 30px;
     line-height: 43px;
+    
 }
 }
 .content .row p{
     font-size: 22px;
     font-family: light;
+}
+@media only screen and (max-width: 767px){
+    .content .row p {
+        font-size: 18px;
+    }
 }
 @font-face {
     font-family: light;

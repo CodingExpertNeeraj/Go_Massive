@@ -469,7 +469,7 @@ body{
     padding: 50px;
     color: #fff;
     background-color:#313131;
-    height: 400px;
+    height: auto;
     }
     
     .footer > * {
