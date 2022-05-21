@@ -199,6 +199,11 @@ header{
     padding-bottom: 10px;
     overflow-wrap: break-word;
 }
+@media (max-width:767px) {
+    .main-row h1{
+        line-height: 35px;
+    }
+}
 .main-row h3{
     font-family: light;
     font-size: 30px;
@@ -253,6 +258,11 @@ header{
 .hero .container .row .card{
     width: 60%;
     padding: 15px;
+}
+@media  (max-width:767px) {
+    .hero .container .row .card{
+        width: 100%;
+    }
 }
 .hero .container .row .card img{
     width:100%;
@@ -417,7 +427,7 @@ header{
     padding: 50px;
     color: #fff;
     background-color:#313131;
-    height: 400px;
+    height: auto;
     }
     
     .footer > * {
@@ -428,7 +438,11 @@ header{
     margin-right: 1.25em;
     margin-bottom: 2em;
     }
-    
+    @media(max-width:767px){
+        .l-footer img{
+            width: 100%;
+        }
+    }
     .footer ul {
     list-style: none;
     padding-left: 0;
