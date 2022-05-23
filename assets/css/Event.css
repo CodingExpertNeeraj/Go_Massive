@@ -257,12 +257,12 @@ body{
 }
 }
 @media only screen and (max-width: 767px){
-    .main-row h1 {
-        font-size: 17px;
-        max-height: 100px;
-        margin-top: -50%;
-    }
-    }
+.main-row h1 {
+    font-size: 17px;
+    max-height: 100px;
+    margin-top: 15%;
+}
+}
     @media only screen and (max-width: 767px){
 .main-row{
     padding-top: 0px!important;
@@ -334,7 +334,7 @@ body{
     align-items: center;
     align-content: center;
     margin: 12%;
-    border-top: 3px solid black;
+    border-top: 3px solid #151515;
     
 }
 .about .container{
@@ -344,6 +344,7 @@ body{
     font-size: 40px;
     text-align: center;
     font-family: semibold;
+    color: #000000;
 }
 .about .container .row .card{
     width: 60%;
