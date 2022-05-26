@@ -294,6 +294,31 @@ body{
     padding: 50px 0;
 }
 }
+form{
+    margin-top: 5%;
+    display: block;
+    width: 100%;
+}
+
+form input{
+    width: 300px;
+    padding: 8px;
+    font-size: 18px;
+    font-family: light;
+    border: 1px solid #ccc;
+}
+@media(max-width:500px){
+    form input{
+        width: 125px;
+    }
+}
+form button{
+    background-color: #e50000;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 8px 15px;
+    border:1px solid #ddd;
+}
 /* new section */
 .content{
     
