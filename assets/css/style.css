@@ -359,6 +359,19 @@ body{
     margin: 10%;
     padding: 50px;
 }
+.mailbox .row .alt{
+    width: 60%;
+    margin: auto;
+    font-size: 22.5px;
+    font-family: light;
+}
+@media (max-width: 767px){
+    .mailbox .row .alt {
+        font-size: 17px;
+        
+        width: 30%;
+    }
+    }
 
 .card{
     padding: 10px;
