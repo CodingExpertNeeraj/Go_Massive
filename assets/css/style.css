@@ -373,15 +373,8 @@ body{
     }
     }
 
-.card{
-    padding: 10px;
-    background-color: #ffffff;
-    /* border: 1px solid black; */
-}
-.card img{
-    width: 100%;
-    padding: 30px;
-}
+ 
+
 /* footer section */
 .footer {
     /* display: flex; */
