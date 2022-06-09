@@ -388,10 +388,10 @@ body{
 .cards-box .contain .container .row{
     padding: 15px;
 }
-.cards-box .contain .container .row .cards{
+.cards-box .contain .container .row .abc{
     background-color: white;
 }
-.cards-box .contain .container .row .col-lg-3 + .col-sm-6 .cards img{
+.cards-box .contain .container .row  .abc img{
     padding: 15px;
     width: 100%;
 }
